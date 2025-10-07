@@ -1,5 +1,11 @@
 # Chat Multi Client
 
+
+## Equipe
+
+ - Douglas Cabral Pereira de Araújo 
+ - Lucas Mateus Alves Luna
+
 Sistema de chat distribuído em Node.js/TypeScript que demonstra arquitetura cliente-servidor com suporte a múltiplos usuários, salas, presença e transferência de arquivos via WebSocket. O projeto serve como base para o artigo acadêmico e comprova o uso de concorrência (event loop assíncrono), paralelismo (Worker Threads/Cluster) e sincronização via filas de mensagens.
 
 ## ✨ Principais Recursos

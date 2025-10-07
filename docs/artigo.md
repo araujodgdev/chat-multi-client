@@ -1,5 +1,8 @@
 # Sistema de Chat Distribuído com Múltiplos Clientes
 
+ - Douglas Cabral Pereira de Araújo 
+ - Lucas Mateus Alves Luna
+
 ## Resumo
 Este artigo apresenta o desenvolvimento de um sistema de chat distribuído baseado na arquitetura cliente-servidor implementado com Node.js e TypeScript. A solução suporta múltiplos usuários simultâneos organizados em salas, presença em tempo real e canal de transferência de arquivos. Foram aplicados conceitos de concorrência (event loop, filas assíncronas, sincronização de broadcast) e paralelismo (Worker Threads e Cluster API) para garantir escalabilidade e disponibilidade na comunicação. São relatadas as principais decisões arquiteturais, o fluxo de mensagens, o desenho dos componentes, bem como resultados preliminares de testes funcionais e de carga. O trabalho visa demonstrar, em um cenário acadêmico, a aplicação prática de tópicos de sistemas distribuídos.
 
