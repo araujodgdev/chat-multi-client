@@ -1,0 +1,18 @@
+config:
+  target: "http://localhost:8080"
+  phases:
+    - duration: 60
+      arrivalRate: 5
+      name: carga-basica
+scenarios:
+  - name: carga-chat
+    engine: "ws"
+    flow:
+      - send:
+          text: '{"type":"HEARTBEAT"}'
+      - think: 1
+      - send:
+          text: '{"type":"MESSAGE","room":"general","content":"Olá do Artillery"}'
+      - think: 1
+      - send:
+          text: '{"type":"LEAVE","room":"general"}'
